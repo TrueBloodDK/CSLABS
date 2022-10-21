@@ -1,0 +1,15 @@
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\bin\Debug\net6.0\laba 4-6.exe
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\bin\Debug\net6.0\laba 4-6.deps.json
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\bin\Debug\net6.0\laba 4-6.runtimeconfig.json
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\bin\Debug\net6.0\laba 4-6.dll
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\bin\Debug\net6.0\laba 4-6.pdb
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\obj\Debug\net6.0\laba 4-6.csproj.AssemblyReference.cache
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\obj\Debug\net6.0\laba 4-6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\obj\Debug\net6.0\laba 4-6.AssemblyInfoInputs.cache
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\obj\Debug\net6.0\laba 4-6.AssemblyInfo.cs
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\obj\Debug\net6.0\laba 4-6.csproj.CoreCompileInputs.cache
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\obj\Debug\net6.0\laba 4-6.dll
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\obj\Debug\net6.0\refint\laba 4-6.dll
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\obj\Debug\net6.0\laba 4-6.pdb
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\obj\Debug\net6.0\laba 4-6.genruntimeconfig.cache
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-6\obj\Debug\net6.0\ref\laba 4-6.dll
