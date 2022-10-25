@@ -43,6 +43,25 @@ class Program
         void work_5_1()
         {
             Console.WriteLine("К11");
+            var lst = new List<string>()
+            {
+                "20+i24", "13+i10", "4+i5", "6+i1", "13+i10"
+            };
+            for (var j = 0; j < lst.Count; j++)
+            {
+                var cmp1 = new Complex();
+                cmp1.ToComplex(lst[j]);
+                for (var k = 0; k < lst.Count; k++)
+                {
+                    var cmp2 = new Complex();
+                    cmp2.ToComplex(lst[k]);
+                    if (cmp1.Abs() == cmp2.Abs() && j != k)
+                    {
+                        Console.Write("YEAH BITCH!");
+                        return;
+                    }
+                }
+            }
         }
         
         /*Дан файл целых чисел, содержащий более 50 элементов. Уменьшить его

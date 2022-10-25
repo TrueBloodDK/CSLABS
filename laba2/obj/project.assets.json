@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Мал Фурион\\.nuget\\packages\\": {}
+    "C:\\Users\\tghhs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Мал Фурион\\RiderProjects\\шарпы лабы\\laba2\\laba2.csproj",
+      "projectUniqueName": "C:\\Users\\tghhs\\RiderProjects\\CSLABS\\laba2\\laba2.csproj",
       "projectName": "laba2",
-      "projectPath": "C:\\Users\\Мал Фурион\\RiderProjects\\шарпы лабы\\laba2\\laba2.csproj",
-      "packagesPath": "C:\\Users\\Мал Фурион\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Мал Фурион\\RiderProjects\\шарпы лабы\\laba2\\obj\\",
+      "projectPath": "C:\\Users\\tghhs\\RiderProjects\\CSLABS\\laba2\\laba2.csproj",
+      "packagesPath": "C:\\Users\\tghhs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tghhs\\RiderProjects\\CSLABS\\laba2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Мал Фурион\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\tghhs\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Мал Фурион\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\tghhs\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
