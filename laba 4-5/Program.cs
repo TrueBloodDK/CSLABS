@@ -10,7 +10,7 @@ class Program
         {
             Console.Write("Введите кол-во чисел и сами числа которые вы хотите поместить в стек:");
             Stack<int> stack = new Stack<int>();
-            for(int i = 0; i < Funcs.ToInt(Console.ReadLine()); i++) stack.Push(Funcs.ToInt(Console.ReadLine()));
+            for(int i = 0; i < int.Parse(Console.ReadLine()!); i++) stack.Push(int.Parse(Console.ReadLine()!));
 
             while (stack.Count != 0)
             {   Stack<int> stack2 = new Stack<int>();
@@ -27,12 +27,12 @@ class Program
     содержимое одной очереди в конец другой.*/
         void work_4_2() { 
             Console.WriteLine("Введите кол-во элементов в 1-ой очереди и введите все элементы:");
-            Queue<int> FirstQeueu = Funcs.FillNewQueue(Funcs.ToInt(Console.ReadLine()));
+            Queue<int> FirstQeueu = Funcs.FillNewQueue(int.Parse(Console.ReadLine()!));
             Console.WriteLine("Введите кол-во элементов в 2-ой очереди и введите все элементы:");
-            Queue<int> SecondQeueu = Funcs.FillNewQueue(Funcs.ToInt(Console.ReadLine()));
+            Queue<int> SecondQeueu = Funcs.FillNewQueue(int.Parse(Console.ReadLine()!));
             
             Console.WriteLine("Вы хотите добавить: \n1)Вторую в конец первой\n2)Первую в конец второй");
-            switch (Funcs.ToInt(Console.ReadLine()))
+            switch (int.Parse(Console.ReadLine()!))
             {   case 1: Funcs.UniteAndPrint(FirstQeueu, SecondQeueu); break; 
                 case 2: Funcs.UniteAndPrint(SecondQeueu, FirstQeueu); break;
                 default: Console.WriteLine("Нужно ввести 1 или 2"); break; } }
@@ -45,7 +45,7 @@ class Program
             Console.WriteLine("К11");
             var lst = new List<string>()
             {
-                "20+i24", "13+i10", "4+i5", "6+i1", "13+i10"
+                "20+24i", "13+10i", "4+5i", "6+1i", "13+10i"
             };
             for (var j = 0; j < lst.Count; j++)
             {
@@ -55,11 +55,9 @@ class Program
                 {
                     var cmp2 = new Complex();
                     cmp2.ToComplex(lst[k]);
-                    if (cmp1.Abs() == cmp2.Abs() && j != k)
-                    {
-                        Console.Write("YEAH BITCH!");
-                        return;
-                    }
+                    if (cmp1.Abs() != cmp2.Abs() || j == k) continue;
+                    Console.Write("YEAH BITCH!");
+                    return;
                 }
             }
         }
@@ -83,12 +81,12 @@ class Program
     под день и месяц отводится по две позиции, а под год — четыре (например, «16/04/2001»).
     Создать два файла целых чисел, первый из которых содержит значения месяцев, а второй
     — значения лет для дат из исходного строкового файла (в обратном порядке).*/
-        void work_6_2() {
-            var text = "";
+        void work_6_2()
+        {
+            List<string> lst;
             using (StreamReader streamReader = new StreamReader(path: "Test.txt")) {
-                text = streamReader.ReadToEnd();
+                lst = streamReader.ReadToEnd().Split(" ").ToList();
             }
-            var lst = text.Split(" ").ToList();
             var mounth = lst.Select(t => t.Split("/")[1]).ToList();
             var years = lst.Select(t => t.Split("/")[2]).ToList();
             years.Reverse();
@@ -121,7 +119,7 @@ class Program
         Console.WriteLine("Какое задание делаем?\n" + "1)4 лаба - задание 1\n" + "2)4 лаба - задание 2\n" +
                           "3)5 лаба - задание 1\n" + "4)6 лаба - задание 1\n" + "5)6 лаба - задание 2\n" +
                           "6)6 лаба - задание 3");
-        int key = (Funcs.ToInt(Console.ReadLine()));
+        int key = (int.Parse(Console.ReadLine()!));
         if (Works.ContainsKey(key))Works[key]();
         else Console.WriteLine("Не такого задания");
     }
