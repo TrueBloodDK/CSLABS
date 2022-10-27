@@ -2,9 +2,9 @@ namespace laba4;
 
 public class Triangle
 {
-    public double[] A { get; set; }
-    public double[] B { get; set; }
-    public double[] C { get; set; }
+    private double[] A { get; set; }
+    private double[] B { get; set; }
+    private double[] C { get; set; }
     public double Perimeter { get; set; }
     public double Square { get; set; }
 
