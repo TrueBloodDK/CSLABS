@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\tghhs\\.nuget\\packages\\": {}
+    "/Users/nikolaj/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tghhs\\RiderProjects\\CSLABS\\laba1\\laba1.csproj",
+      "projectUniqueName": "/Users/nikolaj/RiderProjects/CSLABS/laba1/laba1.csproj",
       "projectName": "laba1",
-      "projectPath": "C:\\Users\\tghhs\\RiderProjects\\CSLABS\\laba1\\laba1.csproj",
-      "packagesPath": "C:\\Users\\tghhs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tghhs\\RiderProjects\\CSLABS\\laba1\\obj\\",
+      "projectPath": "/Users/nikolaj/RiderProjects/CSLABS/laba1/laba1.csproj",
+      "packagesPath": "/Users/nikolaj/.nuget/packages/",
+      "outputPath": "/Users/nikolaj/RiderProjects/CSLABS/laba1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tghhs\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/nikolaj/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\tghhs\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -107,6 +107,22 @@ class Program
             Console.WriteLine("222");
         }
 
+        void work_7_1()
+        {
+            Triangle tr = new Triangle(new[]{0.0,0.0}, new[]{5.0,5.0}, new[]{10.0,5.0});
+            Console.WriteLine(tr.Perimeter + " " + tr.Square);
+            Console.WriteLine(tr.GetCoordinate(0) + " " + tr.GetCoordinate(1) + " " + tr.GetCoordinate(2));
+            tr.Move(new[]{10.0,5.0});
+            Console.WriteLine(tr.Perimeter + " " + tr.Square);
+            Console.WriteLine(tr.GetCoordinate(0) + " " + tr.GetCoordinate(1) + " " + tr.GetCoordinate(2));
+            tr.Reflect();
+            Console.WriteLine(tr.Perimeter + " " + tr.Square);
+            Console.WriteLine(tr.GetCoordinate(0) + " " + tr.GetCoordinate(1) + " " + tr.GetCoordinate(2));
+            tr.Rotate(50);
+            Console.WriteLine(tr.Perimeter + " " + tr.Square);
+            Console.WriteLine(tr.GetCoordinate(0) + " " + tr.GetCoordinate(1) + " " + tr.GetCoordinate(2));
+        }
+
         Dictionary<int, Action> Works = new Dictionary<int, Action>
         {
             [1] = work_4_1,
@@ -115,6 +131,7 @@ class Program
             [4] = work_6_1,
             [5] = work_6_2,
             [6] = work_6_3,
+            [7] = work_7_1,
         };
         Console.WriteLine("Какое задание делаем?\n" + "1)4 лаба - задание 1\n" + "2)4 лаба - задание 2\n" +
                           "3)5 лаба - задание 1\n" + "4)6 лаба - задание 1\n" + "5)6 лаба - задание 2\n" +

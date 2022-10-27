@@ -1,30 +1,45 @@
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\bin\Debug\net6.0\laba 4-5.exe
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\bin\Debug\net6.0\laba 4-5.deps.json
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\bin\Debug\net6.0\laba 4-5.runtimeconfig.json
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\bin\Debug\net6.0\laba 4-5.dll
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\bin\Debug\net6.0\laba 4-5.pdb
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\obj\Debug\net6.0\laba 4-5.csproj.AssemblyReference.cache
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\obj\Debug\net6.0\laba 4-5.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\obj\Debug\net6.0\laba 4-5.AssemblyInfoInputs.cache
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\obj\Debug\net6.0\laba 4-5.AssemblyInfo.cs
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\obj\Debug\net6.0\laba 4-5.csproj.CoreCompileInputs.cache
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\obj\Debug\net6.0\laba 4-5.dll
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\obj\Debug\net6.0\refint\laba 4-5.dll
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\obj\Debug\net6.0\laba 4-5.pdb
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\obj\Debug\net6.0\laba 4-5.genruntimeconfig.cache
-C:\Users\Мал Фурион\RiderProjects\шарпы лабы\laba 4-5\obj\Debug\net6.0\ref\laba 4-5.dll
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\bin\Debug\net6.0\laba 4-5.exe
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\bin\Debug\net6.0\laba 4-5.deps.json
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\bin\Debug\net6.0\laba 4-5.runtimeconfig.json
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\bin\Debug\net6.0\laba 4-5.dll
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\bin\Debug\net6.0\laba 4-5.pdb
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\obj\Debug\net6.0\laba 4-5.csproj.AssemblyReference.cache
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\obj\Debug\net6.0\laba 4-5.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\obj\Debug\net6.0\laba 4-5.AssemblyInfoInputs.cache
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\obj\Debug\net6.0\laba 4-5.AssemblyInfo.cs
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\obj\Debug\net6.0\laba 4-5.csproj.CoreCompileInputs.cache
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\obj\Debug\net6.0\laba 4-5.dll
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\obj\Debug\net6.0\refint\laba 4-5.dll
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\obj\Debug\net6.0\laba 4-5.pdb
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\obj\Debug\net6.0\laba 4-5.genruntimeconfig.cache
-C:\Users\tghhs\RiderProjects\CSLABS\laba 4-5\obj\Debug\net6.0\ref\laba 4-5.dll
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/bin/Debug/net6.0/laba 4-5.exe
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/bin/Debug/net6.0/laba 4-5.deps.json
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/bin/Debug/net6.0/laba 4-5.runtimeconfig.json
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/bin/Debug/net6.0/laba 4-5.dll
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/bin/Debug/net6.0/laba 4-5.pdb
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/obj/Debug/net6.0/laba 4-5.csproj.AssemblyReference.cache
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/obj/Debug/net6.0/laba 4-5.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/obj/Debug/net6.0/laba 4-5.AssemblyInfoInputs.cache
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/obj/Debug/net6.0/laba 4-5.AssemblyInfo.cs
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/obj/Debug/net6.0/laba 4-5.csproj.CoreCompileInputs.cache
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/obj/Debug/net6.0/laba 4-5.dll
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/obj/Debug/net6.0/refint/laba 4-5.dll
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/obj/Debug/net6.0/laba 4-5.pdb
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/obj/Debug/net6.0/laba 4-5.genruntimeconfig.cache
+C:/Users/Мал Фурион/RiderProjects/шарпы лабы/laba 4-5/obj/Debug/net6.0/ref/laba 4-5.dll
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/bin/Debug/net6.0/laba 4-5.exe
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/bin/Debug/net6.0/laba 4-5.deps.json
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/bin/Debug/net6.0/laba 4-5.runtimeconfig.json
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/bin/Debug/net6.0/laba 4-5.dll
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/bin/Debug/net6.0/laba 4-5.pdb
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.csproj.AssemblyReference.cache
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.AssemblyInfoInputs.cache
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.AssemblyInfo.cs
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.csproj.CoreCompileInputs.cache
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.dll
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/refint/laba 4-5.dll
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.pdb
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.genruntimeconfig.cache
+C:/Users/tghhs/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/ref/laba 4-5.dll
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/bin/Debug/net6.0/laba 4-5
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/bin/Debug/net6.0/laba 4-5.deps.json
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/bin/Debug/net6.0/laba 4-5.runtimeconfig.json
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/bin/Debug/net6.0/laba 4-5.dll
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/bin/Debug/net6.0/laba 4-5.pdb
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.csproj.AssemblyReference.cache
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.AssemblyInfoInputs.cache
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.AssemblyInfo.cs
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.csproj.CoreCompileInputs.cache
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.dll
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/refint/laba 4-5.dll
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.pdb
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/laba 4-5.genruntimeconfig.cache
+/Users/nikolaj/RiderProjects/CSLABS/laba 4-5/obj/Debug/net6.0/ref/laba 4-5.dll
