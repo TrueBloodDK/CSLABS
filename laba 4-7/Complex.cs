@@ -3,19 +3,22 @@
 public class Complex {
     private float firstPart { get; set; }
     private float secondPart { get; set; }
-    public string View { get; set; }
+
     public Complex() {
         firstPart = 0;
         secondPart = 0;
     }
-    public void ToComplex(string number) {
-        View = number;
+    
+    public Complex(string number) {
         firstPart = int.Parse( number.Split("+")[0]); 
-        secondPart = int.Parse( number.Split("+")[1][..1]);
+        secondPart = int.Parse( number.Split("+")[1][..^1]);
     }
 
-    public float Abs() {
-        return (float)Math.Sqrt(Math.Pow(firstPart, 2) + Math.Pow(secondPart, 2));
+    public override string ToString() => firstPart.ToString() + (secondPart >= 0 ? ($"+{secondPart.ToString()}") :
+        secondPart.ToString()) + "i";
+    
+    public double Abs() {
+        return Math.Sqrt(firstPart*firstPart + secondPart*secondPart);
     }
     
     public static Complex operator +(Complex obj1, Complex obj2) {

@@ -10,11 +10,17 @@ public class Triangle
 
     public string GetCoordinate(int cord) {
         return cord switch {
-            0 => A[0] + "; " + A[1],
-            1 => B[0] + "; " + B[1],
-            2 => C[0] + "; " + C[1],
+            0 => A[0] + " : " + A[1],
+            1 => B[0] + " : " + B[1],
+            2 => C[0] + " : " + C[1],
             _ => "Error!"
         };
+    }
+
+    public void ShowTriangleData(Triangle tr)
+    {
+        Console.WriteLine($"Периметр треугольника = {tr.Perimeter}\nПлощадь треугольника = {tr.Square}");
+        Console.WriteLine($"A - ({tr.GetCoordinate(0)}) B - ({tr.GetCoordinate(1)}) C - ({tr.GetCoordinate(2)}) \n");
     }
 
     public void Reflect() {

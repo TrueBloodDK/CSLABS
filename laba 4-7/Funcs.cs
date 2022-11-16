@@ -11,7 +11,11 @@ public static class Funcs {
     
     public static void UniteAndPrint(Queue<int> queue1, Queue<int>queue2) {
         while (queue2.Count != 0) { queue1.Enqueue(queue2.Peek()); queue2.Dequeue(); }
-        while (queue1.Count != 0) Console.Write($"{queue1.Dequeue()} ");   
+        foreach (var elem in queue1)
+        {
+            Console.Write($"{elem} ");
+            Console.WriteLine();
+        }
     }
     
     public static Queue<int> FillNewQueue(int size) {

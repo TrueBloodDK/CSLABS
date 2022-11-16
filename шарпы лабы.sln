@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laba2", "laba2\laba2.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laba3", "laba3\laba3.csproj", "{F51D0731-767A-4592-AA30-0278150B021E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laba 4-5", "laba 4-5\laba 4-5.csproj", "{6ACD924C-ADD1-4A74-82B1-F698927B2A92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laba 4-7", "laba 4-7\laba 4-7.csproj", "{6ACD924C-ADD1-4A74-82B1-F698927B2A92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
