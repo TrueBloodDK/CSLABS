@@ -121,7 +121,11 @@
        Console.WriteLine("Введите кол-во чисел в массиве:");
        var array = FillArray(ToInt(Console.ReadLine()));
        Console.WriteLine(ArrayToString(array));
-       SelectSort(array);
+       for (int i = 0; i < array.Length; i++)
+       {   int indx = i;
+           for (int j = i + 1; j < array.Length; j++) { if (array[j] > array[indx]) indx = j; }
+           if (array[indx] == array[i]) continue;
+           (array[i], array[indx]) = (array[indx], array[i]); }
        Console.WriteLine($"Массив после сортировки\n{ArrayToString(array)}");
     }
     

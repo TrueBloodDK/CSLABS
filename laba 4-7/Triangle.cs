@@ -23,13 +23,15 @@ public class Triangle
         Console.WriteLine($"A - ({tr.GetCoordinate(0)}) B - ({tr.GetCoordinate(1)}) C - ({tr.GetCoordinate(2)}) \n");
     }
 
-    public void Reflect() {
-        A[0] = -A[0];
+    public void ReflectByY() {
         A[1] = -A[1];
-            B[0] = -B[0];
-            B[1] = -B[1];
-                C[0] = -C[0];
-                C[1] = -C[1];
+        B[1] = -B[1];
+        C[1] = -C[1];
+    }
+    public void ReflectByX() {
+        A[0] = -A[0];
+        B[0] = -B[0];
+        C[0] = -C[0];
     }
     public Triangle() {
         A = Array.Empty<double>();

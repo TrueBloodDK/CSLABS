@@ -33,7 +33,12 @@ class Program
     содержимое одной очереди в конец другой.*/
         void work_4_2()
         {
-            Console.WriteLine("Введите кол-во элементов в 1-ой очереди и введите все элементы:");
+            int a = 21;
+            int b = 4;
+            b = a / b;
+            double c = a/b;
+            Console.WriteLine(c);
+            /* Console.WriteLine("Введите кол-во элементов в 1-ой очереди и введите все элементы:");
             Queue<int> FirstQeueu = Funcs.FillNewQueue(int.Parse(Console.ReadLine()!));
             Console.WriteLine("Введите кол-во элементов в 2-ой очереди и введите все элементы:");
             Queue<int> SecondQeueu = Funcs.FillNewQueue(int.Parse(Console.ReadLine()!));
@@ -42,7 +47,7 @@ class Program
             switch (int.Parse(Console.ReadLine()!))
             {   case 1:Funcs.UniteAndPrint(FirstQeueu, SecondQeueu);break; 
                 case 2:Funcs.UniteAndPrint(SecondQeueu, FirstQeueu);break;
-                default: Console.WriteLine("Нужно ввести 1 или 2"); break; }
+                default: Console.WriteLine("Нужно ввести 1 или 2"); break; }*/
         }
 
         /*Определить, есть ли среди заданной последовательности
@@ -81,12 +86,13 @@ class Program
             }
 
             var lst = text.Split(" ").ToList();
-            while (lst.Count > 6) lst.RemoveAt(0);
+            while (lst.Count > 50) lst.RemoveAt(0);
             text = lst.Aggregate("", (current, t) => current + (t + " "));
             using (StreamWriter streamWriter = new StreamWriter(path: "Test61.txt"))
             {
                 streamWriter.Write(text);
             }
+            Console.WriteLine("Готова!");
         }
 
         /*Дан строковый файл, содержащий даты в формате «день/месяц/год», причем
@@ -125,15 +131,25 @@ class Program
             Console.WriteLine("222");
         }
 
+        /*Описать класс треугольника, заданного с помощью координат его вершин. Предусмотреть методы для:
+	Доступа к координатам вершин (чтение и запись) (здесь можно использовать свойства)
+	Вычисления площади и периметра
+	Параллельного переноса на заданный вектор
+	Поворота на угол alpha относительно начала координат
+	Зеркального отражения относительно осей координат (для x и y)!!
+    Напишите программу, которая демонстрирует работу с данным классом. 
+    Она должна использовать все реализованные методы класса.*/
         void work_7_1()
         {
             Triangle tr = new Triangle(new[] { 0.0, 0.0 }, new[] { 5.0, 5.0 }, new[] { 10.0, 5.0 });
             tr.ShowTriangleData(tr);
             tr.Move(new[] { 10.0, 5.0 });
             tr.ShowTriangleData(tr);
-            tr.Reflect();
+            tr.ReflectByX();
             tr.ShowTriangleData(tr);
-            tr.Rotate(Math.Cos(-1));
+            tr.ReflectByY();
+            tr.ShowTriangleData(tr);
+            tr.Rotate(50);
             tr.ShowTriangleData(tr);
         }
 
@@ -149,7 +165,7 @@ class Program
         };
         Console.WriteLine("Какое задание делаем?\n" + "1)4 лаба - задание 1\n" + "2)4 лаба - задание 2\n" +
                           "3)5 лаба - задание 1\n" + "4)6 лаба - задание 1\n" + "5)6 лаба - задание 2\n" +
-                          "6)6 лаба - задание 3\n" + "7)6 лаба - задание 1");
+                          "6)6 лаба - задание 3\n" + "7)7 лаба - задание 1");
         int key = (int.Parse(Console.ReadLine()!));
         if (Works.ContainsKey(key)) Works[key]();
         else Console.WriteLine("Не такого задания");

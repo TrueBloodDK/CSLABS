@@ -62,19 +62,11 @@ void work_2()
 {
     //Привет. Меня зовут Вова, обычный русский парен... И я русский! %"№№???... .. . ...!! fa
     Console.WriteLine("Введите текст который вы хотите изменить");
-    string str = Console.ReadLine();
-    Dictionary<string, string> dic = new Dictionary<string,string>()
-    {
-        {"!", " "},
-        {",", " "},
-        {".", " "},
-        {"?", " "},
-    };
-    
-    foreach(string i in dic.Keys)
-        str = str.Replace(i, dic[i]);
-    
-    Console.WriteLine(str); 
+    string? str = Console.ReadLine();
+    List<string> lst = new List<string>()
+        {"!", ",", ".", "?", };
+    foreach (string i in lst) str = str?.Replace(i, " ");
+    Console.WriteLine(str);
 }
 
 /*Тэг курсива. Дан текст, в котором встречаются структуры <i> и </i>. Заменить 
@@ -85,16 +77,12 @@ void work_3()
     Console.WriteLine("Введите текст который вы хотите изменить");
     string str = Console.ReadLine();
     Dictionary<string, string> dic = new Dictionary<string,string>()
-    {
-        {"<i>", "<курсив>"},
+    {   {"<i>", "<курсив>"},
         {"<I>", "<курсив>"},
         {"</i>", "<конец курсива>"},
-        {"</I>", "<конец курсива>"},
-    };
-    
+        {"</I>", "<конец курсива>"}, };
     foreach(string i in dic.Keys)
         str = str.Replace(i, dic[i]);
-    
     Console.WriteLine(str); 
 }
 
