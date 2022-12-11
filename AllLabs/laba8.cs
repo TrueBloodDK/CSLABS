@@ -31,7 +31,18 @@
 public class laba8
 {
     public void Main()
-    {
-        Console.WriteLine("BibaBpba");
+    { 
+        FunctionQx functions = new FunctionQx();
+
+        Console.WriteLine("Чему равно A?");
+            Functions.getA(double.Parse(Console.ReadLine()!));
+        Console.WriteLine("Чему равно B?");
+            Functions.getB(double.Parse(Console.ReadLine()!));
+        Console.WriteLine("Чему равно C?");
+            Functions.getC(double.Parse(Console.ReadLine()!));
+        
+        Console.WriteLine("Чему равно X?");
+        double x = double.Parse(Console.ReadLine()!);
+
     }
 }

@@ -13,3 +13,18 @@ C:\Users\tghhs\RiderProjects\CSLABS\AllLabs\obj\Debug\net6.0\refint\AllLabs.dll
 C:\Users\tghhs\RiderProjects\CSLABS\AllLabs\obj\Debug\net6.0\AllLabs.pdb
 C:\Users\tghhs\RiderProjects\CSLABS\AllLabs\obj\Debug\net6.0\AllLabs.genruntimeconfig.cache
 C:\Users\tghhs\RiderProjects\CSLABS\AllLabs\obj\Debug\net6.0\ref\AllLabs.dll
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\bin\Debug\net6.0\AllLabs.exe
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\bin\Debug\net6.0\AllLabs.deps.json
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\bin\Debug\net6.0\AllLabs.runtimeconfig.json
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\bin\Debug\net6.0\AllLabs.dll
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\bin\Debug\net6.0\AllLabs.pdb
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\obj\Debug\net6.0\AllLabs.csproj.AssemblyReference.cache
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\obj\Debug\net6.0\AllLabs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\obj\Debug\net6.0\AllLabs.AssemblyInfoInputs.cache
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\obj\Debug\net6.0\AllLabs.AssemblyInfo.cs
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\obj\Debug\net6.0\AllLabs.csproj.CoreCompileInputs.cache
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\obj\Debug\net6.0\AllLabs.dll
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\obj\Debug\net6.0\refint\AllLabs.dll
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\obj\Debug\net6.0\AllLabs.pdb
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\obj\Debug\net6.0\AllLabs.genruntimeconfig.cache
+C:\Users\Мал Фурион\RiderProjects\шарпы лабы\AllLabs\obj\Debug\net6.0\ref\AllLabs.dll

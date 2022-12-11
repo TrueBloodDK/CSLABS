@@ -46,19 +46,6 @@ public class laba1
         }
     }
 
-    static double ToDouble(string str)
-    {
-        try
-        {
-            return Convert.ToDouble(str);
-        }
-        catch (FormatException e)
-        {
-            Console.WriteLine($"This char is not a number! {e}");
-            throw;
-        }
-    }
-
     static void work_1()
     {
         Console.WriteLine("Напиши чему равен X:");
