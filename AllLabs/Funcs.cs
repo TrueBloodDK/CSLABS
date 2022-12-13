@@ -9,6 +9,8 @@ public static class Funcs {
         return ar;
     }
     
+    public static string ArrayToString(IReadOnlyList<int> array) => array.Aggregate("", (current, t) => current + (t + " "));
+    
     public static void UniteAndPrint(Queue<int> queue1, Queue<int>queue2) {
         while (queue2.Count != 0) { queue1.Enqueue(queue2.Peek()); queue2.Dequeue(); }
         foreach (var elem in queue1)

@@ -21,10 +21,7 @@ public class Complex
                                          (secondPart >= 0 ? ($"+{secondPart.ToString()}") : secondPart.ToString()) +
                                          "i";
 
-    public double Abs()
-    {
-        return Math.Sqrt(firstPart * firstPart + secondPart * secondPart);
-    }
+    public double Abs() => Math.Sqrt(firstPart * firstPart + secondPart * secondPart);
 
     public static Complex operator +(Complex obj1, Complex obj2)
     {

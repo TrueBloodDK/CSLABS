@@ -2,51 +2,13 @@
 
 public class laba3
 {
-    int ToInt(string? str)
-    {
-        try
-        {
-            return Convert.ToInt32(str);
-        }
-        catch (FormatException e)
-        {
-            Console.WriteLine($"This char is not a integer number! {e}");
-            throw;
-        }
-    }
-
-    int[,] FillDoubleArrayOfInts(int x, int y)
-    {
-        var array = new int[x, y];
-        for (var i = 0; i < x; i++)
-        for (var j = 0; j < y; j++)
-            array[i, j] = ToInt(Console.ReadLine());
-        return array;
-    }
-
-    string DoubleArrayToString(int[,] array)
-    {
-        var matrix = "";
-        for (var i = 0; i < array.GetLength(0); i++)
-        {
-            matrix += "\n";
-            for (var j = 0; j < array.GetLength(1); j++) matrix += array[i, j] + " ";
-        }
-
-        return matrix;
-    }
-
-///////////////////////////////////////////////
-///////////////////////////////////////////////
-
-
 /*Определить номера строк матрицы,
  в которых знаки элементов чередуются.*/
     void work_1()
     {
         Console.WriteLine("Введите кол-во строк и столбцов");
-        var matrix = FillDoubleArrayOfInts(ToInt(Console.ReadLine()), ToInt(Console.ReadLine()));
-        Console.WriteLine(DoubleArrayToString(matrix));
+        var matrix = Funcs.FillDoubleArrayOfInts(int.Parse(Console.ReadLine() ?? string.Empty), int.Parse(Console.ReadLine() ?? string.Empty));
+        Console.WriteLine(Funcs.DoubleArrayToString(matrix));
 
         Console.Write("Строки с чередующимися знаками: ");
         for (int i = 0; i < matrix.GetLength(0); i++)
@@ -83,7 +45,7 @@ public class laba3
     void work_3()
     {
         Console.WriteLine("Введите текст который вы хотите изменить");
-        string str = Console.ReadLine();
+        string? str = Console.ReadLine();
         Dictionary<string, string> dic = new Dictionary<string, string>()
         {
             { "<i>", "<курсив>" },
@@ -92,7 +54,7 @@ public class laba3
             { "</I>", "<конец курсива>" },
         };
         foreach (string i in dic.Keys)
-            str = str.Replace(i, dic[i]);
+            str = str?.Replace(i, dic[i]);
         Console.WriteLine(str);
     }
 

@@ -2,20 +2,6 @@
 
 public class laba2
 {
-    int[] FillArray(int size)
-    {
-        int[] ar = new int[size];
-        for (var i = 0; i < ar.Length; i++) ar[i] = int.Parse(Console.ReadLine() ?? string.Empty);
-        return ar;
-    }
-
-    string ArrayToString(IReadOnlyList<int> array)
-    { return array.Aggregate("", (current, t) => current + (t + " ")); }
-    
-    
-///////////////////////////////////////////////
-///////////////////////////////////////////////
-        
     /*Использование циклов while и do-while*/
     void work_1() {
         Console.WriteLine("Введите чилсо n:");
@@ -52,8 +38,8 @@ public class laba2
      элементы, которые принадлежат отрезку [с, d].*/
     void work_3() {
         Console.WriteLine("Введите кол-во чисел в массиве:");
-        var array = FillArray(int.Parse(Console.ReadLine()!));
-        Console.WriteLine($"{ArrayToString(array)} \nНапиши диапозон чисел от c до d \nc:");
+        var array = Funcs.FillArray(int.Parse(Console.ReadLine()!));
+        Console.WriteLine($"{Funcs.ArrayToString(array)} \nНапиши диапозон чисел от c до d \nc:");
         var c = int.Parse(Console.ReadLine() ?? string.Empty);
         Console.WriteLine("d:");
         var d = int.Parse(Console.ReadLine() ?? string.Empty);
@@ -66,20 +52,15 @@ public class laba2
     /*Сортировка выбором.*/
     void work_4() { 
        Console.WriteLine("Введите кол-во чисел в массиве:");
-       var array = FillArray(int.Parse(Console.ReadLine() ?? string.Empty));
-       Console.WriteLine(ArrayToString(array));
+       var array = Funcs.FillArray(int.Parse(Console.ReadLine() ?? string.Empty));
+       Console.WriteLine(Funcs.ArrayToString(array));
        for (int i = 0; i < array.Length; i++)
        {   int indx = i;
            for (int j = i + 1; j < array.Length; j++) { if (array[j] > array[indx]) indx = j; }
            if (array[indx] == array[i]) continue;
            (array[i], array[indx]) = (array[indx], array[i]); }
-       Console.WriteLine($"Массив после сортировки\n{ArrayToString(array)}");
-       Console.WriteLine("Массив после сортировки\n" + ArrayToString(array));
+       Console.WriteLine($"Массив после сортировки\n{Funcs.ArrayToString(array)}");
     }
-    
-    
-///////////////////////////////////////////////
-///////////////////////////////////////////////
 
     public void Main()
     {
