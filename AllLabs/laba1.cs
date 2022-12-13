@@ -52,7 +52,7 @@ public class laba1
         string num = Console.ReadLine()!;
         int x = Convert.ToInt32(num);
         Console.WriteLine("Ответ: ");
-        Console.Write((2 * (1 / System.Math.Tan(3 * x))) * (-1 * System.Math.Sqrt(x))
+        Console.Write((2 * (1 / System.Math.Tan(3 * x))) * (-1 * Math.Sqrt(x))
                       - 1 / (12 * (System.Math.Pow(x, 2)) + (7 * x) - 5));
     }
 
@@ -64,37 +64,35 @@ public class laba1
         double b = ToDouble(Console.ReadLine());
         Console.WriteLine("чему равно c?");
         double c = ToDouble(Console.ReadLine());*/
-        double a = 1, b = 1111, c = 1;
-        double d = System.Math.Sqrt(b) - 4 * a * c;
+        double a = 1, b = -5, c = 6;
+        double d = Math.Pow(b, 2) - 4 * a * c;
 
         if (d > 0)
         {
-            {
-                double t1 = (-b - System.Math.Sqrt(d)) / (2 * a);
-                double t2 = (-b + System.Math.Sqrt(d)) / (2 * a);
+            double t1 = (-b - Math.Sqrt(d)) / (2 * a);
+            double t2 = (-b + Math.Sqrt(d)) / (2 * a);
                 if (t1 > t2) (t1, t2) = (t2, t1);
                 Console.WriteLine("Корни - ");
                 if (t1 >= 0)
                 {
 
-                    double x1 = System.Math.Sqrt(t1);
-                    double x2 = -System.Math.Sqrt(t1);
+                    double x1 = Math.Sqrt(t1);
+                    double x2 = -Math.Sqrt(t1);
                     Console.Write($"X1 = {x1} X2 = {x2} ");
                 }
 
                 if (t2 >= 0)
                 {
-                    double x3 = System.Math.Sqrt(t2);
-                    double x4 = -System.Math.Sqrt(t2);
+                    double x3 = Math.Sqrt(t2);
+                    double x4 = -Math.Sqrt(t2);
                     Console.Write($"X3 = {x3} X4 = {x4} ");
                 }
-            }
         }
         else if (d == 0)
         {
             double t = -b / 2 * a;
-            double x1 = System.Math.Sqrt(-b / 2 * a);
-            double x2 = -System.Math.Sqrt(-b / 2 * a);
+            double x1 = Math.Sqrt(-b / 2 * a);
+            double x2 = -Math.Sqrt(-b / 2 * a);
             Console.WriteLine("Корни - " + x1 + " " + x2);
         }
         else Console.WriteLine("Корней нет!");
@@ -111,42 +109,18 @@ public class laba1
         string? str = null;
         switch (ToInt(Console.ReadLine()!))
         {
-            case 1:
-                str = "перво";
-                break;
-            case 2:
-                str = "второ";
-                break;
-            case 3:
-                str = "третье";
-                break;
-            case 4:
-                str = "четверо";
-                break;
-            case 5:
-                str = "пяти";
-                break;
-            case 6:
-                str = "шести";
-                break;
-            case 7:
-                str = "семи";
-                break;
-            case 8:
-                str = "восьми";
-                break;
-            case 9:
-                str = "девяти";
-                break;
-            case 10:
-                str = "десяти";
-                break;
-            case 11:
-                str = "одинадцати";
-                break;
-            default:
-                Console.WriteLine("Такого класса нет");
-                break;
+            case 1: str = "перво"; break;
+            case 2: str = "второ"; break;
+            case 3: str = "третье"; break;
+            case 4: str = "четверо"; break;
+            case 5: str = "пяти"; break;
+            case 6: str = "шести"; break;
+            case 7: str = "семи"; break;
+            case 8: str = "восьми"; break;
+            case 9: str = "девяти"; break;
+            case 10: str = "десяти"; break;
+            case 11: str = "одинадцати"; break;
+            default: Console.WriteLine("Такого класса нет"); break;
         }
 
         if (str != null) Console.WriteLine($"Привет, {str}классник");

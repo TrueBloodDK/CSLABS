@@ -27,12 +27,15 @@
 класса. Также должны быть реализованы методы доступа к коэффициентам функций на
 чтение и запись.*/
 
-
 public class laba8
 {
     public void Main()
     { 
-        FunctionQx functions = new FunctionQx();
+        FunctionFx funcF = new FunctionFx();
+        FunctionGx funcG = new FunctionGx();
+        FunctionQx funcQ = new FunctionQx();
+        FunctionLx funcL = new FunctionLx();
+        FunctionCx funcC = new FunctionCx();
 
         Console.WriteLine("Чему равно A?");
             Functions.getA(double.Parse(Console.ReadLine()!));
@@ -44,5 +47,10 @@ public class laba8
         Console.WriteLine("Чему равно X?");
         double x = double.Parse(Console.ReadLine()!);
 
+        funcF.PrintFunc(x);
+        funcG.PrintFunc(x);
+        funcQ.PrintFunc(x);
+        funcL.PrintFunc(x);
+        funcC.PrintFunc(x);
     }
 }
