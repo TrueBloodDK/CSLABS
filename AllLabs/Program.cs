@@ -14,6 +14,8 @@ static class Program
             [6] = new laba6().Main,
             [7] = new laba7().Main,
             [8] = new laba8().Main,
+            [9] = new laba9().Main,
+            [10] = new laba10().Main,
         };
         Console.WriteLine("Какую лабу делаем? (1-8)");
         int key = (int.Parse(Console.ReadLine()!));
