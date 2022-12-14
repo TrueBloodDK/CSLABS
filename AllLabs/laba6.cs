@@ -47,8 +47,28 @@ public class laba6
     данной матрицы (по строкам).*/
         void work_3()
         {
-            Console.WriteLine("222");
+            List<string> lst;
+            using (StreamReader streamReader = new StreamReader(path: "Matrix63.txt")) 
+                lst = streamReader.ReadToEnd().Split(" ").ToList();
+            foreach (var i in lst)
+            {
+                Console.Write($"{i} ");
+            }
         }
+        
+     /*
+        1 2 
+        3 5 1 
+        1 1 1 
+        1 1 1 
+        1 1 1 
+        1 1 1 
+        1 1 1 
+        1 1 1 
+        1 1 1 
+        1 1 
+        */
+
     
 ///////////////////////////////////////////////
 ///////////////////////////////////////////////
