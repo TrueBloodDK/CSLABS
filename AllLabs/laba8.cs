@@ -30,27 +30,29 @@
 public class laba8
 {
     public void Main()
-    { 
-        FunctionFx funcF = new FunctionFx();
-        FunctionGx funcG = new FunctionGx();
-        FunctionQx funcQ = new FunctionQx();
-        FunctionLx funcL = new FunctionLx();
-        FunctionCx funcC = new FunctionCx();
+    {
+        Functions funcF = new FunctionFx();
+        Functions funcG = new FunctionGx();
+        Functions funcQ = new FunctionQx();
+        Functions funcL = new FunctionLx();
+        Functions funcC = new FunctionCx();
 
-        Console.WriteLine("Чему равно A?");
-            Functions.getA(double.Parse(Console.ReadLine()!));
-        Console.WriteLine("Чему равно B?");
-            Functions.getB(double.Parse(Console.ReadLine()!));
-        Console.WriteLine("Чему равно C?");
-            Functions.getC(double.Parse(Console.ReadLine()!));
-        
-        Console.WriteLine("Чему равно X?");
-        double x = double.Parse(Console.ReadLine()!);
+        Console.WriteLine("Какую функцию вы хотите вызвать?\n" +
+                          "F(x) = A * sin(B * x)\n" +
+                          "G(x)= A * cos(B * x)\n" +
+                          "Q(x) = A * x ^2 + B * x + C\n" +
+                          "L(x) = A * x + B\n" +
+                          "C(x) = A\n");
 
-        funcF.PrintFunc(x);
-        funcG.PrintFunc(x);
-        funcQ.PrintFunc(x);
-        funcL.PrintFunc(x);
-        funcC.PrintFunc(x);
+        char choose = char.Parse(Console.ReadLine()!);
+       switch (choose)
+       {
+           case 'F': funcF.ReadFunction(); break;
+           case 'G': funcG.ReadFunction(); break;
+           case 'Q': funcQ.ReadFunction(); break;
+           case 'L': funcL.ReadFunction(); break;
+           case 'C': funcC.ReadFunction(); break;
+           default: Console.WriteLine("Нет такой функции"); break;
+       } 
     }
 }
