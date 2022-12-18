@@ -51,7 +51,19 @@ public class laba6
             using (StreamReader streamReader = new StreamReader(path: "Matrix63.txt"))
                 lst = streamReader.ReadToEnd().Split(" ").ToList();
             foreach (var i in lst) Console.Write($"{i} ");
-            
+
+            string[] s = File.ReadAllLines("Matrix63.txt");
+            int[][] ar = new int[s.Length][];
+            for (int i = 0; i < s.Length; i++)
+            {
+                ar[i] = new int[s[0].Length];
+                for (int j = 0; j < s[0].Length; j++)
+                {
+                    ar[i][j] = (int)char.GetNumericValue(s[i][j]); 
+                }
+
+            }
+            Console.WriteLine(s[1][2]);
         }
         /*
            1 2 
