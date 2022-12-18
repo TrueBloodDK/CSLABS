@@ -48,26 +48,23 @@ public class laba6
         void work_3()
         {
             List<string> lst;
-            using (StreamReader streamReader = new StreamReader(path: "Matrix63.txt")) 
+            using (StreamReader streamReader = new StreamReader(path: "Matrix63.txt"))
                 lst = streamReader.ReadToEnd().Split(" ").ToList();
-            foreach (var i in lst)
-            {
-                Console.Write($"{i} ");
-            }
+            foreach (var i in lst) Console.Write($"{i} ");
+            
         }
-        
-     /*
-        1 2 
-        3 5 1 
-        1 1 1 
-        1 1 1 
-        1 1 1 
-        1 1 1 
-        1 1 1 
-        1 1 1 
-        1 1 1 
-        1 1 
-        */
+        /*
+           1 2 
+           3 5 1 
+           1 1 1 
+           1 1 1 
+           1 1 1 
+           1 1 1 
+           1 1 1 
+           1 1 1 
+           1 1 1 
+           1 1 
+           */
 
     
 ///////////////////////////////////////////////

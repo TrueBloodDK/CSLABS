@@ -43,16 +43,17 @@ public class laba8
                           "Q(x) = A * x ^2 + B * x + C\n" +
                           "L(x) = A * x + B\n" +
                           "C(x) = A\n");
-
-        char choose = char.Parse(Console.ReadLine()!);
-       switch (choose)
-       {
-           case 'F': funcF.ReadFunction(); break;
-           case 'G': funcG.ReadFunction(); break;
-           case 'Q': funcQ.ReadFunction(); break;
-           case 'L': funcL.ReadFunction(); break;
-           case 'C': funcC.ReadFunction(); break;
-           default: Console.WriteLine("Нет такой функции"); break;
-       } 
+   
+            switch (char.Parse(Console.ReadLine()!))
+            {
+                case 'F': funcF.ReadFunction(); break;
+                case 'G': funcG.ReadFunction(); break;
+                case 'Q': funcQ.ReadFunction(); break;
+                case 'L': funcL.ReadFunction(); break;
+                case 'C': funcC.ReadFunction(); break;
+                default:
+                    Console.WriteLine("Нет такой функции");
+                    break;
+            }
+        }
     }
-}
